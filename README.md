@@ -3,6 +3,7 @@
 A collaborative multi-agent system where specialized agents communicate through a global chat to solve tasks.
 
 ![](/office.png)
+![](/globalchat.png)
 
 ## Overview
 

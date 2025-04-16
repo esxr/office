@@ -131,9 +131,9 @@ To use a tool, respond with the following JSON schema:
         Args:
             message: The chat message to handle
         """
-        self.logger.info(
-            f"Handling chat message from {message['sender']}: {message['content'][:50]}{'...' if len(message['content']) > 50 else ''}"
-        )
+        # self.logger.info(
+        #     f"Handling chat message from {message['sender']}: {message['content'][:50]}{'...' if len(message['content']) > 50 else ''}"
+        # )
 
         # Skip messages sent by this agent
         if message["sender"] == self.name:

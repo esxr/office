@@ -407,14 +407,16 @@ async def main():
         if args.debug:
             await monitor_task(
                 office_components["office_chat"].post_message(
-                    "Welcome to the Agent Office! Ask a question that any of our agents can help with. You don't need to respond to this message. Use the `no_response` tool to avoid responding to this message.",
+                    # "Welcome to the Agent Office! Ask a question that any of our agents can help with. You don't need to respond to this message. Use the `no_response` tool to avoid responding to this message.",
+                    "Work on 5 ideas in your respective domains, and ask what you want done in other domains.",
                     sender="System",
                 ),
                 timeout=args.timeout,
             )
         else:
             await office_components["office_chat"].post_message(
-                "Welcome to the Agent Office! Ask a question that any of our agents can help with. You don't need to respond to this message. Use the `no_response` tool to avoid responding to this message.",
+                # "Welcome to the Agent Office! Ask a question that any of our agents can help with. You don't need to respond to this message. Use the `no_response` tool to avoid responding to this message.",
+                "Work on 5 ideas in your respective domains, and ask what you want done in other domains.",
                 sender="System",
             )
         logger.debug("Welcome message posted successfully")
