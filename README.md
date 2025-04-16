@@ -2,6 +2,8 @@
 
 A collaborative multi-agent system where specialized agents communicate through a global chat to solve tasks.
 
+![](/workforce.excalidraw.png)
+
 ## Overview
 
 Agent Office creates a virtual office environment where multiple specialized AI agents can collaborate to solve problems. Each agent has:
